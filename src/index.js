@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import "./index.css";
 import { App } from "./app";
 import { About } from "./about";
+import { Navbar } from "./components";
 
 let router = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ let router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <Navbar />
     <RouterProvider router={router} />
   </React.StrictMode>
 );
