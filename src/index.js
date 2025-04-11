@@ -6,11 +6,16 @@ import {
 } from "react-router";
 import './index.css';
 import { App } from './app';
+import { About } from './about';
 
 let router = createBrowserRouter([
   {
     path: "/",
     Component: App,
+  },
+  {
+    path: "/About",
+    Component: About,
   },
   {
     path: "*",
