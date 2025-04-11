@@ -1,12 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router";
-import './index.css';
-import { App } from './app';
-import { About } from './about';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router";
+import "./index.css";
+import { App } from "./app";
+import { About } from "./about";
 
 let router = createBrowserRouter([
   {
@@ -23,7 +20,7 @@ let router = createBrowserRouter([
   },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
