@@ -9,7 +9,9 @@ body {
   padding: 20px; /* Espaciado interno */
   width: 200%; /* Puedes ajustar el ancho del contenedor */
   color: white; /* Establece el color de texto blanco */
-  margin-left: 300px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text-container {
