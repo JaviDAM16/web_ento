@@ -1,0 +1,27 @@
+body {
+  background-color: #1e3a8a; /* Azul oscuro, ajusta el color a lo que necesites */
+}
+
+.profile-container {
+  display: flex; /* Usamos Flexbox para alinear los elementos */
+  align-items: right; /* Centra verticalmente los elementos */
+  justify-content: flex-start; /* Alinea los elementos de izquierda a derecha */
+  padding: 20px; /* Espaciado interno */
+  width: 200%; /* Puedes ajustar el ancho del contenedor */
+  color: white; /* Establece el color de texto blanco */
+  margin-left: 300px;
+}
+
+.text-container {
+  margin-right: 20px; /* Ajusta el espacio entre el texto y la imagen */
+}
+
+.profile-image {
+  width: 200px; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Mantén la proporción */
+}
+
+h1,
+pre {
+  color: white;
+}
