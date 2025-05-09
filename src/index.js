@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import { App } from "./app";
 import { About } from "./about";
+import { Producte } from "./producte";
 
 let router = createBrowserRouter([
   {
@@ -12,11 +13,11 @@ let router = createBrowserRouter([
     children: [
       {
         path: "/about", // Convención: las rutas suelen ir en minúsculas
-        element: <About />,
+        element: About,
       },
       {
-        path: "/perro",
-        element: <div>trabaja perro</div>,
+        path: "/producte/:id",
+        element: <Producte />,
       },
     ],
   },

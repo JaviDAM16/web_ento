@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "nombre": "Camiseta Básica",
+      "descripcion": "Camiseta de algodón 100% con cuello redondo.",
+      "precio": 14.99,
+      "talla": "M",
+      "color": "Blanco",
+      "imagen": "camiseta"
+    },
+    {
+      "id": 2,
+      "nombre": "Pantalón Chino",
+      "descripcion": "Pantalón de vestir casual con corte slim.",
+      "precio": 29.99,
+      "talla": "L",
+      "color": "Beige",
+      "imagen": "pantalon"
+    },
+    {
+      "id": 3,
+      "nombre": "Sudadera con Capucha",
+      "descripcion": "Sudadera de felpa suave con bolsillo frontal.",
+      "precio": 39.99,
+      "talla": "XL",
+      "color": "Gris",
+      "imagen": "sudadera"
+    },
+    {
+      "id": 4,
+      "nombre": "Vestido Floral",
+      "descripcion": "Vestido ligero con estampado floral, ideal para verano.",
+      "precio": 44.99,
+      "talla": "S",
+      "color": "Rojo",
+      "imagen": "vestido-floral"
+    },
+    {
+      "id": 5,
+      "nombre": "Chaqueta Vaquera",
+      "descripcion": "Chaqueta clásica de mezclilla con botones metálicos.",
+      "precio": 59.99,
+      "talla": "M",
+      "color": "Azul",
+      "imagen": "chaqueta-vaquera"
+    },
+    {
+      "id": 6,
+      "nombre": "Falda Plisada",
+      "descripcion": "Falda midi plisada con cintura elástica.",
+      "precio": 24.99,
+      "talla": "S",
+      "color": "Negro",
+      "imagen": "falda-plisada"
+    },
+    {
+      "id": 7,
+      "nombre": "Camisa de Lino",
+      "descripcion": "Camisa fresca de lino ideal para clima cálido.",
+      "precio": 34.99,
+      "talla": "L",
+      "color": "Verde Oliva",
+      "imagen": "camisa-lino"
+    },
+    {
+      "id": 8,
+      "nombre": "Jeans Skinny",
+      "descripcion": "Jeans ajustados con acabado elástico para mayor comodidad.",
+      "precio": 39.99,
+      "talla": "M",
+      "color": "Azul Oscuro",
+      "imagen": "jeans-skinny"
+    },
+    {
+      "id": 9,
+      "nombre": "Blazer Formal",
+      "descripcion": "Blazer elegante para ocasiones formales o trabajo.",
+      "precio": 74.99,
+      "talla": "XL",
+      "color": "Beige",
+      "imagen": "blazer-formal"
+    },
+    {
+      "id": 10,
+      "nombre": "Short Deportivo",
+      "descripcion": "Short cómodo de poliéster ideal para entrenamiento.",
+      "precio": 19.99,
+      "talla": "M",
+      "color": "Negro",
+      "imagen": "short-deportivo"
+    }
+  ]
+}
