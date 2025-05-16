@@ -14,6 +14,10 @@ let router = createBrowserRouter([
     element: <App />,
     children: [
       {
+        index: true,
+        element: <Inicio />,
+      },
+      {
         path: "/about", // Convención: las rutas suelen ir en minúsculas
         element: <About />,
       },

@@ -9,17 +9,17 @@
 .carrusel-slide {
   display: none;
   text-align: center;
-}
 
-.carrusel-slide img {
-  height: 600px;
-  max-width: 300%;
-  border-radius: 10px;
-  object-fit: contain;
-}
+  img {
+    height: 600px;
+    max-width: 300%;
+    border-radius: 10px;
+    object-fit: contain;
+  }
 
-.carrusel-slide.active {
-  display: block;
+  &.active {
+    display: block;
+  }
 }
 
 .caption {
@@ -39,16 +39,16 @@
   cursor: pointer;
   z-index: 2;
   border-radius: 50%;
-}
 
-.carrusel-button.prev {
-  left: 10px;
-}
+  &.prev {
+    left: 10px;
+  }
 
-.carrusel-button.next {
-  right: 10px;
-}
+  &.next {
+    right: 10px;
+  }
 
-.carrusel-button:hover {
-  background: rgba(0, 0, 0, 0.7);
+  &:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
 }

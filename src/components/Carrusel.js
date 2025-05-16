@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import prendas from "../data/prendas.json";
-import "./Carrusel.css";
+import "./Carrusel.scss";
 
 const getImage = (imageName) => {
   try {
