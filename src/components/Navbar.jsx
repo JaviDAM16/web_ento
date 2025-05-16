@@ -6,7 +6,10 @@ export const Navbar = () => {
     <nav>
       <ul style={{ listStyleType: "none", display: "flex", gap: "20px" }}>
         <li>
-          <Link to="/">Inicio</Link>
+          <Link to="/inicio">Inicio</Link>
+        </li>
+        <li>
+          <Link to="/cataleg">Cataleg</Link>
         </li>
         <li>
           <Link to="/about">About</Link>

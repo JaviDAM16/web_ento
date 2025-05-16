@@ -1,0 +1,54 @@
+.carrusel {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carrusel-slide {
+  display: none;
+  text-align: center;
+}
+
+.carrusel-slide img {
+  height: 600px;
+  max-width: 300%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.carrusel-slide.active {
+  display: block;
+}
+
+.caption {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.carrusel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 5px 12px;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.carrusel-button.prev {
+  left: 10px;
+}
+
+.carrusel-button.next {
+  right: 10px;
+}
+
+.carrusel-button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}

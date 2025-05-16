@@ -5,6 +5,8 @@ import "./index.css";
 import { App } from "./app";
 import { About } from "./about";
 import { Producte } from "./producte";
+import { Cataleg } from "./cataleg";
+import { Inicio } from "./inicio";
 
 let router = createBrowserRouter([
   {
@@ -13,11 +15,19 @@ let router = createBrowserRouter([
     children: [
       {
         path: "/about", // Convención: las rutas suelen ir en minúsculas
-        element: About,
+        element: <About />,
       },
       {
         path: "/producte/:id",
         element: <Producte />,
+      },
+      {
+        path: "/cataleg",
+        element: <Cataleg />,
+      },
+      {
+        path: "/inicio",
+        element: <Inicio />,
       },
     ],
   },

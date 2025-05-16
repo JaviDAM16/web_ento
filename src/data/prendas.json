@@ -7,7 +7,7 @@
       "precio": 14.99,
       "talla": "M",
       "color": "Blanco",
-      "imagen": "camiseta"
+      "imagen": "camiseta-blanca"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "precio": 29.99,
       "talla": "L",
       "color": "Beige",
-      "imagen": "pantalon"
+      "imagen": "pantalon-chino"
     },
     {
       "id": 3,

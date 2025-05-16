@@ -4,7 +4,7 @@ import jeans from "./jeans-skinny.jpg";
 import camisa from "./camisa-lino.jpg";
 import falda from "./falda-plisada.jpg";
 import chaqueta from "./chaqueta-vaquera.jpg";
-import vestido from "./vestido-floral.jpeg";
+import vestido from "./vestido-floral.jpg";
 import sudadera from "./sudadera.jpg";
 import pantalon from "./pantalon-chino.jpg";
 import camiseta from "./camiseta-blanca.jpg";
@@ -18,8 +18,8 @@ const imagenes = {
   "chaqueta-vaquera": chaqueta,
   "vestido-floral": vestido,
   sudadera: sudadera,
-  pantalon: pantalon,
-  camiseta: camiseta,
+  "pantalon-chino": pantalon,
+  "camiseta-blanca": camiseta,
 };
 
 export default imagenes;
