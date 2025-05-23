@@ -8,6 +8,8 @@ import vestido from "./vestido-floral.jpg";
 import sudadera from "./sudadera.jpg";
 import pantalon from "./pantalon-chino.jpg";
 import camiseta from "./camiseta-blanca.jpg";
+import parallax1 from "./parallax1.jpg";
+import parallax2 from "./parallax2.jpg";
 
 const imagenes = {
   "short-deportivo": short,
@@ -20,6 +22,8 @@ const imagenes = {
   sudadera: sudadera,
   "pantalon-chino": pantalon,
   "camiseta-blanca": camiseta,
+  parallax1: parallax1,
+  parallax2: parallax2,
 };
 
 export default imagenes;

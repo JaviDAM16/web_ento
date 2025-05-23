@@ -1,0 +1,99 @@
+.inicio-container {
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Carrusel se asume con su propio estilo */
+
+/* --- Productos Destacados --- */
+.destacados {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.productos-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.producto-card {
+  background: white;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.producto-card:hover {
+  transform: translateY(-5px);
+}
+
+.producto-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.producto-card h3 {
+  margin: 0;
+}
+
+.producto-card p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.name {
+  padding: 16px;
+}
+
+/* --- Parallax Section --- */
+.parallax {
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.parallax1 {
+  background-image: url("../images/parallax1.jpg");
+}
+
+.parallax2 {
+  background-image: url("../images/parallax2.jpg");
+}
+
+.parallax-text {
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px black;
+}
+
+/* --- Contenido --- */
+.contenido-info {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.cta-button {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #000;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}

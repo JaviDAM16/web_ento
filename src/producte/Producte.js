@@ -2,13 +2,15 @@ import "./Producte.css";
 import { useParams } from "react-router-dom";
 import prendas from "../data/prendas.json";
 import imagenes from "../images";
+import { useLanguage } from "../utils/contexts/Language";
 
 export const Producte = () => {
+  const { t } = useLanguage();
   const { id } = useParams();
   const producte = prendas.data.find((p) => p.id === Number(id));
 
   if (!producte) {
-    return <div>Producte no trobat.</div>;
+    return <div>{t("not-found")}.</div>;
   }
 
   return (
@@ -19,16 +21,16 @@ export const Producte = () => {
       <div className="info-container">
         <h2>{producte.nombre}</h2>
         <p>
-          <strong>Descripción:</strong> {producte.descripcion}
+          <strong>{t("description")}:</strong> {producte.descripcion}
         </p>
         <p>
-          <strong>Precio:</strong> ${producte.precio.toFixed(2)}
+          <strong>{t("price")}:</strong> ${producte.precio.toFixed(2)}
         </p>
         <p>
-          <strong>Talla:</strong> {producte.talla}
+          <strong>{t("size")}:</strong> {producte.talla}
         </p>
         <p>
-          <strong>Color:</strong> {producte.color}
+          <strong>{t("color")}:</strong> {producte.color}
         </p>
         {/* Opcional: botón para ver más */}
       </div>

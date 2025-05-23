@@ -7,6 +7,7 @@ import { About } from "./about";
 import { Producte } from "./producte";
 import { Cataleg } from "./cataleg";
 import { Inicio } from "./inicio";
+import { LanguageProvider } from "./utils/contexts/Language.jsx";
 
 let router = createBrowserRouter([
   {
@@ -40,6 +41,8 @@ let router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <LanguageProvider>
+      <RouterProvider router={router} />
+    </LanguageProvider>
   </React.StrictMode>
 );
