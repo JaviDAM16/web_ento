@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import "./Navbar.css"; // Asegúrate de importar el archivo CSS
-
+import "./Navbar.scss";
+import { LanguageSelector } from "../utils/components/LanguageSelector";
 export const Navbar = () => {
   return (
-    <nav>
-      <ul style={{ listStyleType: "none", display: "flex", gap: "20px" }}>
+    <nav className="navbar">
+      <ul>
         <li>
           <Link to="/inicio">Inicio</Link>
         </li>
@@ -13,6 +13,9 @@ export const Navbar = () => {
         </li>
         <li>
           <Link to="/about">About</Link>
+        </li>
+        <li>
+          <LanguageSelector />
         </li>
       </ul>
     </nav>
