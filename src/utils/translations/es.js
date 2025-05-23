@@ -13,4 +13,10 @@ export default {
   color: "Color",
   "not-found": "Producto no disponible",
   divisa: "€",
+  "about-us-page":
+    "En Zoro Shop, nos apasiona ofrecer moda accesible y con estilo. Desde prendas básicas hasta piezas únicas, cada producto está pensado para realzar tu personalidad. Con años de experiencia en el sector textil, combinamos calidad, diseño y atención personalizada para cada cliente.",
+  "main-title": "Descubre tu estilo con Zoro Shop",
+  start: "Inicio",
+  catalog: "Catalogo",
+  about: "Sobre nosotros",
 };

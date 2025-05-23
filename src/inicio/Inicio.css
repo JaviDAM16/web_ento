@@ -2,6 +2,14 @@
   font-family: "Segoe UI", sans-serif;
 }
 
+.inicio-titulo {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 40px 0 20px;
+  color: #222;
+  font-weight: 700;
+}
+
 /* Carrusel se asume con su propio estilo */
 
 /* --- Productos Destacados --- */

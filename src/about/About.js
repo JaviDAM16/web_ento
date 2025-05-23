@@ -1,17 +1,27 @@
 import "./About.css";
-import javiImage from "./javi.jpg";
+import javi from "./javi.jpg";
+import tienda from "./tienda.jpg"; // Cambia por tu ruta real
+import { useLanguage } from "../utils/contexts/Language";
 
 export const About = () => {
+  const { t } = useLanguage();
+
   return (
-    <div className="profile-container">
-      <div className="text-container">
-        <h1>Javier Sanchez Ramos</h1>
-        <pre>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </pre>
+    <section className="about-container">
+      <div className="about-top">
+        <img src={tienda} alt="Nuestra tienda" className="about-store-img" />
+
+        <div className="about-text">
+          <h2>{t("about-us")}</h2>
+          <p>{t("about-us-page")}</p>
+        </div>
       </div>
-      <img src={javiImage} alt="Imagen personal" className="profile-image" />
-    </div>
+
+      <div className="about-ceo">
+        <img src={javi} alt="Foto del CEO" className="ceo-photo" />
+        <p className="ceo-name">Javier Sanchez Ramos</p>
+        <p className="ceo-title">CEO</p>
+      </div>
+    </section>
   );
 };

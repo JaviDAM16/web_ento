@@ -1,29 +1,62 @@
-body {
-  background-color: #ebeadf; /* Azul oscuro, ajusta el color a lo que necesites */
+.about-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.profile-container {
-  display: flex; /* Usamos Flexbox para alinear los elementos */
-  align-items: right; /* Centra verticalmente los elementos */
-  justify-content: flex-start; /* Alinea los elementos de izquierda a derecha */
-  padding: 20px; /* Espaciado interno */
-  width: 200%; /* Puedes ajustar el ancho del contenedor */
-  color: white; /* Establece el color de texto blanco */
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+.about-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
-.text-container {
-  margin-right: 20px; /* Ajusta el espacio entre el texto y la imagen */
+.about-store-img {
+  flex: 1;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.profile-image {
-  width: 200px; /* Ajusta el tamaño de la imagen */
-  height: auto; /* Mantén la proporción */
+.about-text {
+  flex: 1;
+  min-width: 300px;
 }
 
-h1,
-pre {
-  color: white;
+.about-text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.about-ceo {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.ceo-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ceo-name {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ceo-title {
+  font-size: 14px;
+  color: #666;
 }

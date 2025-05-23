@@ -13,4 +13,10 @@ export default {
   color: "Color",
   "not-found": "Product not avaible",
   divisa: "$",
+  "about-us-page":
+    "At Zoro Shop, we're passionate about offering affordable and stylish fashion. From basic pieces to unique pieces, each product is designed to enhance your personality. With years of experience in the textile industry, we combine quality, design, and personalized service for each customer.",
+  "main-title": "Discover your style with Zoro Shop",
+  start: "Start",
+  catalog: "Catalog",
+  about: "About",
 };
