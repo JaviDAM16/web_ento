@@ -27,7 +27,7 @@ export const Inicio = () => {
                 <p>
                   {prenda.precio.toFixed(2)} {t("divisa")}
                 </p>
-                <Link to={`/producto/${prenda.id}`}>{t("see-more")}</Link>
+                <Link to={`/producte/${prenda.id}`}>{t("see-more")}</Link>
               </div>
             </div>
           ))}
