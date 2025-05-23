@@ -12,6 +12,11 @@ export const Inicio = () => {
 
   return (
     <div className="inicio-container">
+      <head>
+      <title>
+       Zoro Shop
+      </title>
+    </head>
       <h1 className="inicio-titulo">{t("main-title")}</h1>
 
       <Carrusel />
