@@ -30,7 +30,7 @@
 .carrusel-button {
   position: absolute;
   top: 50%;
-  transform: translateY(100%);
+  transform: translateY(-50%);
   background: rgba(0, 0, 0, 0.4);
   border: none;
   color: white;
@@ -50,5 +50,22 @@
 
   &:hover {
     background: rgba(0, 0, 0, 0.7);
+  }
+}
+
+/* 🔽 Añade esto para dispositivos móviles */
+@media (max-width: 768px) {
+  .carrusel-slide img {
+    max-height: 250px;
+    object-fit: cover;
+  }
+
+  .carrusel-button {
+    font-size: 1.5rem;
+    padding: 4px 10px;
+  }
+
+  .caption {
+    font-size: 0.9rem;
   }
 }

@@ -26,6 +26,7 @@
 
 .logo-img {
   width: 1000px;
+  max-width: 90vw; /* que no supere 90% del ancho móvil */
   height: auto;
   animation: zoomIn 1s ease-out;
 }
@@ -41,8 +42,6 @@
   }
 }
 
-
-
 /* Animación para el logo o título */
 .inicio-titulo {
   font-size: 2.5rem;
@@ -54,9 +53,7 @@
   animation-delay: 0.2s;
 }
 
-/* Carrusel se asume con su propio estilo */
-
-/* --- Productos Destacados --- */
+/* Productos Destacados */
 .destacados {
   padding: 60px 20px;
   text-align: center;
@@ -76,6 +73,7 @@
 .producto-card {
   background: white;
   width: 280px;
+  max-width: 90vw; /* para que no exceda ancho móvil */
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -94,6 +92,7 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
+  max-height: 200px;
 }
 
 .producto-card h3 {
@@ -109,7 +108,7 @@
   padding: 16px;
 }
 
-/* --- Parallax Section --- */
+/* Parallax Section */
 .parallax {
   height: 600px;
   background-attachment: fixed;
@@ -138,7 +137,7 @@
   text-shadow: 0 0 10px black;
 }
 
-/* --- Contenido --- */
+/* Contenido */
 .contenido-info {
   padding: 60px 20px;
   text-align: center;
@@ -156,4 +155,51 @@
   border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
+}
+
+/* MEDIA QUERIES para móvil */
+@media (max-width: 768px) {
+  .logo-img {
+    width: 90vw;
+  }
+
+  .inicio-titulo {
+    font-size: 1.8rem;
+    margin: 30px 10px 20px;
+  }
+
+  .productos-grid {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .producto-card {
+    width: 90vw;
+  }
+
+  .producto-card img {
+    height: auto; /* para que la imagen no corte */
+    max-height: none;
+  }
+
+  .parallax {
+    height: 300px;
+     /* para mejor soporte en móvil */
+  }
+
+  .parallax-text {
+    font-size: 1.5rem;
+    bottom: 40%;
+    padding: 0 10px;
+  }
+
+  .contenido-info {
+    padding: 40px 15px;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
 }
