@@ -27,23 +27,30 @@ export const Navbar = () => {
         <span></span>
       </button>
 
-      {/* Menú, que se oculta o muestra en móvil según estado */}
-      <ul className={`navbar-links ${menuOpen ? "open" : ""}`}>
-        <div className ="contenedor">
-        <li>
-          <Link to="/inicio" onClick={closeMenu}>{t("start")}</Link>
-        </li>
-        <li>
-          <Link to="/cataleg" onClick={closeMenu}>{t("catalog")}</Link>
-        </li>
-        <li>
-          <Link to="/about" onClick={closeMenu}>{t("about")}</Link>
-        </li>
-        <li>
-          <LanguageSelector />
-        </li>
-        </div>
-      </ul>
+
+<div className={`menu-container ${menuOpen ? "open" : ""}`}>
+        <ul className="navbar-links">
+          <li>
+            <Link to="/inicio" onClick={closeMenu}>
+              {t("start")}
+            </Link>
+          </li>
+          <li>
+            <Link to="/cataleg" onClick={closeMenu}>
+              {t("catalog")}
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" onClick={closeMenu}>
+              {t("about")}
+            </Link>
+          </li>
+          <li>
+            <LanguageSelector />
+          </li>
+          <li></li>
+        </ul>
+      </div>
     </nav>
   );
 };
