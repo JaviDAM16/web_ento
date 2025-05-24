@@ -24,7 +24,7 @@ export const Inicio = () => {
 
       {/* LOGO animado */}
       <div className={`logo-inicio ${showContent ? "fade-out" : "fade-in"}`}>
-         <img src="./favicon.ico" alt="Zoro Shop Logo" className="logo-img" />
+         <img src={imagenes.logozoro} alt="Zoro Shop Logo" className="logo-img" />
       </div>
 
       {/* CONTENIDO PRINCIPAL con aparición suave */}

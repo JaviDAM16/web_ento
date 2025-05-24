@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
+
 import "./index.css";
 import { App } from "./app";
 import { About } from "./about";
@@ -9,40 +10,22 @@ import { Cataleg } from "./cataleg";
 import { Inicio } from "./inicio";
 import { LanguageProvider } from "./utils/contexts/Language.jsx";
 
-let router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        index: true,
-        element: <Inicio />,
-      },
-      {
-        path: "/about", // Convención: las rutas suelen ir en minúsculas
-        element: <About />,
-      },
-      {
-        path: "/producte/:id",
-        element: <Producte />,
-      },
-      {
-        path: "/cataleg",
-        element: <Cataleg />,
-      },
-      {
-        path: "/inicio",
-        element: <Inicio />,
-      },
-    ],
-  },
-]);
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
     <LanguageProvider>
-      <RouterProvider router={router} />
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<App />}>
+            <Route index element={<Inicio />} />
+            <Route path="inicio" element={<Inicio />} />
+            <Route path="about" element={<About />} />
+            <Route path="producte/:id" element={<Producte />} />
+            <Route path="cataleg" element={<Cataleg />} />
+          </Route>
+        </Routes>
+      </HashRouter>
     </LanguageProvider>
   </React.StrictMode>
 );
