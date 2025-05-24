@@ -1,7 +1,21 @@
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  background-color: rgb(243, 244, 248); /* Fondo azul */
-  padding: 10px 0; /* Espaciado arriba y abajo de la barra de navegación */
+  height: 40px;
+  z-index: 10;
+  
+
+  background-color: rgba(243, 244, 248, 0.95); // Leve transparencia
+  backdrop-filter: blur(6px); // Difuminado de fondo para elegancia
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+  padding: 10px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   ul {
     list-style-type: none;
@@ -17,16 +31,32 @@
   }
 
   a {
-    text-decoration: none; /* Elimina el subrayado por defecto */
-    color: rgb(14, 12, 12); /* Color de las letras blancas */
-    font-size: 16px;
+    text-decoration: none;
+    color: rgb(14, 12, 12);
+    font-size: 18px;
     font-weight: bold;
-    padding: 8px 16px; /* Espaciado alrededor del texto */
-    transition: background-color 0.3s ease; /* Transición para el hover */
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px;
   }
 
-  a:hover {
-    background-color: rgb(60, 61, 61); /* Fondo azul claro al pasar el mouse */
-    color: rgb(238, 226, 226); /* Cambio de color del texto al pasar el ratón */
+  .navbar-links a:hover {
+    background-color: rgb(60, 61, 61);
+    color: rgb(238, 226, 226);
   }
+}
+
+.navbar-logo {
+  position: absolute;
+  left: 20px;
+
+  img {
+    
+    height: 40px;
+    max-height: 50px;
+    object-fit: contain;
+  }
+  
+
+
 }

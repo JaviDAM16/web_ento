@@ -2,12 +2,56 @@
   font-family: "Segoe UI", sans-serif;
 }
 
+/* Animación de entrada solo para hijos */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.logo-inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+  animation: fadeOutLogo 2s forwards;
+  animation-delay: 1s;
+}
+
+.logo-img {
+  width: 1000px;
+  height: auto;
+  animation: zoomIn 1s ease-out;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+
+/* Animación para el logo o título */
 .inicio-titulo {
   font-size: 2.5rem;
   text-align: center;
   margin: 40px 0 20px;
   color: #222;
   font-weight: 700;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.2s;
 }
 
 /* Carrusel se asume con su propio estilo */
@@ -17,6 +61,8 @@
   padding: 60px 20px;
   text-align: center;
   background-color: #f8f8f8;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.5s;
 }
 
 .productos-grid {
@@ -34,6 +80,10 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   overflow: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+  animation-delay: 0.8s;
 }
 
 .producto-card:hover {
@@ -61,7 +111,7 @@
 
 /* --- Parallax Section --- */
 .parallax {
-  height: 400px;
+  height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,7 +129,7 @@
 
 .parallax-text {
   position: absolute;
-  bottom: 20%;
+  bottom: 50%;
   width: 100%;
   text-align: center;
   color: white;
@@ -93,6 +143,8 @@
   padding: 60px 20px;
   text-align: center;
   background-color: white;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 1.2s;
 }
 
 .cta-button {

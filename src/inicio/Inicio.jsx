@@ -5,19 +5,31 @@ import imagenes from "../images";
 import { Carrusel } from "../components/Carrusel";
 import { useLanguage } from "../utils/contexts/Language";
 import { Parallax } from "./parallax";
+import { useEffect, useState } from "react";
+
 
 export const Inicio = () => {
   const { t } = useLanguage();
   const productosDestacados = prendas.data.slice(0, 3); // Solo los primeros 3
+   const [showContent, setShowContent] = useState(false);
+
+   useEffect(() => {
+    const timer = setTimeout(() => setShowContent(true), 2000); // Espera 2 segundos
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
-    <div className="inicio-container">
-      <head>
-      <title>
-       Zoro Shop
-      </title>
-    </head>
-      <h1 className="inicio-titulo">{t("main-title")}</h1>
+  <div className="inicio-container">
+      <title>Zoro Shop</title>
+
+      {/* LOGO animado */}
+      <div className={`logo-inicio ${showContent ? "fade-out" : "fade-in"}`}>
+         <img src="./favicon.ico" alt="Zoro Shop Logo" className="logo-img" />
+      </div>
+
+      {/* CONTENIDO PRINCIPAL con aparición suave */}
+      <div className={`contenido-inicio ${showContent ? "visible" : ""}`}>
+        <h1 className="inicio-titulo">{t("main-title")}</h1>
 
       <Carrusel />
 
@@ -48,6 +60,7 @@ export const Inicio = () => {
           </Link>
         </section>
       </Parallax>
+    </div>
     </div>
   );
 };

@@ -19,4 +19,5 @@ export default {
   start: "Start",
   catalog: "Catalog",
   about: "About",
+  "all-rights-reserved": "All rights reserved.",
 };
