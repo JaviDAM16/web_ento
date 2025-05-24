@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web_ento/static/css/main.e4a62fd5.css",
-    "main.js": "/web_ento/static/js/main.fb228ffd.js",
+    "main.css": "/web_ento/static/css/main.1cdfc96d.css",
+    "main.js": "/web_ento/static/js/main.1cab7284.js",
     "static/media/parallax2.jpg": "/web_ento/static/media/parallax2.54bd304104e05944d96f.jpg",
     "static/media/parallax1.jpg": "/web_ento/static/media/parallax1.5353924627d59cc88578.jpg",
     "static/media/camisa-lino.jpg": "/web_ento/static/media/camisa-lino.5de6cb3bcb0f513e4f8e.jpg",
@@ -18,11 +18,11 @@
     "static/media/logozoro.jpg": "/web_ento/static/media/logozoro.c626e76b696ac469ca55.jpg",
     "static/media/jeans-skinny.jpg": "/web_ento/static/media/jeans-skinny.bb749866c7e4b1c21d22.jpg",
     "index.html": "/web_ento/index.html",
-    "main.e4a62fd5.css.map": "/web_ento/static/css/main.e4a62fd5.css.map",
-    "main.fb228ffd.js.map": "/web_ento/static/js/main.fb228ffd.js.map"
+    "main.1cdfc96d.css.map": "/web_ento/static/css/main.1cdfc96d.css.map",
+    "main.1cab7284.js.map": "/web_ento/static/js/main.1cab7284.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4a62fd5.css",
-    "static/js/main.fb228ffd.js"
+    "static/css/main.1cdfc96d.css",
+    "static/js/main.1cab7284.js"
   ]
 }
