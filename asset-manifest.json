@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web_ento/static/css/main.e4a62fd5.css",
-    "main.js": "/web_ento/static/js/main.450adb53.js",
+    "main.js": "/web_ento/static/js/main.fb228ffd.js",
     "static/media/parallax2.jpg": "/web_ento/static/media/parallax2.54bd304104e05944d96f.jpg",
     "static/media/parallax1.jpg": "/web_ento/static/media/parallax1.5353924627d59cc88578.jpg",
     "static/media/camisa-lino.jpg": "/web_ento/static/media/camisa-lino.5de6cb3bcb0f513e4f8e.jpg",
@@ -19,10 +19,10 @@
     "static/media/jeans-skinny.jpg": "/web_ento/static/media/jeans-skinny.bb749866c7e4b1c21d22.jpg",
     "index.html": "/web_ento/index.html",
     "main.e4a62fd5.css.map": "/web_ento/static/css/main.e4a62fd5.css.map",
-    "main.450adb53.js.map": "/web_ento/static/js/main.450adb53.js.map"
+    "main.fb228ffd.js.map": "/web_ento/static/js/main.fb228ffd.js.map"
   },
   "entrypoints": [
     "static/css/main.e4a62fd5.css",
-    "static/js/main.450adb53.js"
+    "static/js/main.fb228ffd.js"
   ]
 }
