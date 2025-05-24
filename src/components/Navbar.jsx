@@ -29,6 +29,7 @@ export const Navbar = () => {
 
       {/* Menú, que se oculta o muestra en móvil según estado */}
       <ul className={`navbar-links ${menuOpen ? "open" : ""}`}>
+        <div className ="contenedor">
         <li>
           <Link to="/inicio" onClick={closeMenu}>{t("start")}</Link>
         </li>
@@ -41,6 +42,7 @@ export const Navbar = () => {
         <li>
           <LanguageSelector />
         </li>
+        </div>
       </ul>
     </nav>
   );

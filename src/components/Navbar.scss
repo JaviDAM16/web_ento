@@ -5,6 +5,7 @@
   width: 100%;
   height: 40px;
   z-index: 10;
+  
 
   background-color: rgba(243, 244, 248, 0.95); // Leve transparencia
   backdrop-filter: blur(6px); // Difuminado de fondo para elegancia
@@ -99,44 +100,57 @@
 
 /* ----- Media queries para móvil ----- */
 @media (max-width: 768px) {
-  .navbar {
-    justify-content: flex-start;
-    height: 60px;
-  }
-
-  ul {
-    flex-direction: column;
+  ul.navbar-links {
     position: fixed;
-    top: 60px;
+    top: 80px;
     right: 0;
-    background-color: rgba(243, 244, 248, 0.95);
     width: 200px;
-    height: calc(100% - 60px);
-    gap: 15px;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
     transform: translateX(100%);
-    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    z-index: 15;
   }
 
-  /* Mostrar menú cuando esté abierto */
-  ul.open {
+  ul.navbar-links.open {
     transform: translateX(0);
+
   }
 
-  /* Mostrar botón hamburguesa en móvil */
+  /* Aquí el contenedor con fondo blanco y padding */
+  ul.navbar-links {
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+  }
+.contenedor {
+    background-color: white;  /* solo el contenedor tiene fondo blanco */
+    padding-bottom: 10px;
+    padding-top: 40px;
+
+
+}
+
+
+  li {
+    margin: 0 0 10px 0;
+  }
+
+  li a {
+    display: block;
+    padding: 12px 0;
+    font-weight: bold;
+    color: rgb(14, 12, 12);
+  }
+
+  li a:hover {
+    background-color: rgb(60, 61, 61);
+    color: rgb(238, 226, 226);
+  }
+
   .hamburger {
     display: flex;
-  }
-
-  /* Ajustar logo */
-  .navbar-logo {
-    position: absolute;
-    left: 20px;
-    top: 10px;
-
-    img {
-      height: 40px;
-      max-height: 50px;
-    }
   }
 }

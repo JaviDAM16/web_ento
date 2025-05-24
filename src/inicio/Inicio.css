@@ -185,7 +185,7 @@
 
   .parallax {
     height: 300px;
-     /* para mejor soporte en móvil */
+    background-attachment: scroll; /* para mejor soporte en móvil */
   }
 
   .parallax-text {
