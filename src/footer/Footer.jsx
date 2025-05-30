@@ -12,7 +12,7 @@ export const Footer = () => {
           <Link to="/inicio">{t("start")}</Link>
           <Link to="/cataleg">{t("catalog")}</Link>
           <Link to="/about">{t("about")}</Link>
-          <Link to="/contact">{t("contact")}</Link>
+          <Link to="/carrito">{t("cart")}</Link>
         </div>
         <div className="footer-copy">
           <p>

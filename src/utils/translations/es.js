@@ -18,7 +18,7 @@ export default {
   "main-title": "Descubre tu estilo con Zoro Shop",
   start: "Inicio",
   catalog: "Catalogo",
-  about: "Sobre nosotros",
+  about: "Sobre Nosotros",
   "all-rights-reserved": "Todos los derechos reservados.",
   "buy-now": "Comprar ahora",
   cart: "Carrito",
