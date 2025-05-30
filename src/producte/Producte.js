@@ -3,14 +3,36 @@ import { useParams } from "react-router-dom";
 import prendas from "../data/prendas.json";
 import imagenes from "../images";
 import { useLanguage } from "../utils/contexts/Language";
+import { useCarrito } from "../carrito/CarritoContext";
 
 export const Producte = () => {
   const { t } = useLanguage();
   const { id } = useParams();
   const producte = prendas.data.find((p) => p.id === Number(id));
 
+  // Acceder a las funciones del carrito
+  const { agregarProducto } = useCarrito();
+
+  // Función para manejar el clic en el botón "Comprar ahora"
+  const handleBuyNow = () => {
+    const productoConCantidad = {
+      ...producte,
+      cantidad: 1, // Establecer una cantidad inicial
+    };
+
+    window.dispatchEvent(
+      new CustomEvent("show-notification", {
+        detail: {
+          message: `Tu producto ${producte.nombre} ha sido agregado al carrito.`,
+        },
+      })
+    );
+
+    agregarProducto(productoConCantidad); // Llamar a la función para agregar el producto al carrito
+  };
+
   if (!producte) {
-    return <div>{t("not-found")}.</div>;
+    return <div>{t("not-found")}</div>;
   }
 
   return (
@@ -32,7 +54,9 @@ export const Producte = () => {
         <p>
           <strong>{t("color")}:</strong> {producte.color}
         </p>
-        {/* Opcional: botón para ver más */}
+        <button className="buy-button" onClick={handleBuyNow}>
+          {t("buy-now")}
+        </button>
       </div>
     </div>
   );

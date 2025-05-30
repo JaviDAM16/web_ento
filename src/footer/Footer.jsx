@@ -15,7 +15,10 @@ export const Footer = () => {
           <Link to="/contact">{t("contact")}</Link>
         </div>
         <div className="footer-copy">
-          <p>&copy; {new Date().getFullYear()} Zoro Shop. {t("all-rights-reserved")}</p>
+          <p>
+            &copy; {new Date().getFullYear()} Zoro Shop.{" "}
+            {t("all-rights-reserved")}
+          </p>
         </div>
       </div>
     </footer>

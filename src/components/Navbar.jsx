@@ -21,14 +21,17 @@ export const Navbar = () => {
       </div>
 
       {/* Botón hamburguesa visible solo en móvil */}
-      <button className={`hamburger ${menuOpen ? "active" : ""}`} onClick={toggleMenu} aria-label="Toggle menu">
+      <button
+        className={`hamburger ${menuOpen ? "active" : ""}`}
+        onClick={toggleMenu}
+        aria-label="Toggle menu"
+      >
         <span></span>
         <span></span>
         <span></span>
       </button>
 
-
-<div className={`menu-container ${menuOpen ? "open" : ""}`}>
+      <div className={`menu-container ${menuOpen ? "open" : ""}`}>
         <ul className="navbar-links">
           <li>
             <Link to="/inicio" onClick={closeMenu}>
@@ -43,6 +46,11 @@ export const Navbar = () => {
           <li>
             <Link to="/about" onClick={closeMenu}>
               {t("about")}
+            </Link>
+          </li>
+          <li>
+            <Link to="/carrito" onClick={closeMenu}>
+              {t("cart")}
             </Link>
           </li>
           <li>

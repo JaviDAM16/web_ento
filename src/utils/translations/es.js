@@ -20,4 +20,6 @@ export default {
   catalog: "Catalogo",
   about: "Sobre nosotros",
   "all-rights-reserved": "Todos los derechos reservados.",
+  "buy-now": "Comprar ahora",
+  cart: "Carrito",
 };

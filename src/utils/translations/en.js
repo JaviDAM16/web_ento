@@ -20,4 +20,6 @@ export default {
   catalog: "Catalog",
   about: "About",
   "all-rights-reserved": "All rights reserved.",
+  "buy-now": "Buy Now",
+  cart: "Cart",
 };

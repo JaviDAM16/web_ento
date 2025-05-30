@@ -1,0 +1,74 @@
+/* Carrito.css */
+.carrito-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.productos-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.producto {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.producto-img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.producto-info {
+  flex: 1;
+}
+
+.cantidad {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.cantidad input {
+  width: 50px;
+  text-align: center;
+}
+
+.resumen {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.proceder-compra {
+  padding: 0.75rem 2rem;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.proceder-compra:hover {
+  background-color: #219150;
+}

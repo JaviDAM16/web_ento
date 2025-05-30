@@ -35,11 +35,6 @@
     border-radius: 4px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
-
-  a:hover {
-    background-color: rgb(60, 61, 61);
-    color: rgb(238, 226, 226);
-  }
 }
 
 .navbar-logo {
@@ -116,13 +111,12 @@
   .menu-container.open {
     transform: translateX(0);
     margin-right: 20px;
-    
   }
 
   ul.navbar-links {
     flex-direction: column;
     gap: 15px;
-    background-color: white;  
+    background-color: white;
   }
 
   li a {

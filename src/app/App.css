@@ -1,3 +1,7 @@
-.App {
+.app-container {
+  position: relative;
   text-align: center;
+  padding-top: 60px;
+  padding-bottom: 111px;
+  min-height: calc(100vh - 60px - 110px);
 }
