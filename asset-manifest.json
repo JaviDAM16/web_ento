@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/web_ento/static/css/main.1a0282b0.css",
+    "main.css": "/web_ento/static/css/main.12009c12.css",
     "main.js": "/web_ento/static/js/main.96de395d.js",
     "static/media/parallax2.jpg": "/web_ento/static/media/parallax2.54bd304104e05944d96f.jpg",
     "static/media/parallax1.jpg": "/web_ento/static/media/parallax1.5353924627d59cc88578.jpg",
@@ -18,11 +18,11 @@
     "static/media/logozoro.jpg": "/web_ento/static/media/logozoro.c626e76b696ac469ca55.jpg",
     "static/media/jeans-skinny.jpg": "/web_ento/static/media/jeans-skinny.bb749866c7e4b1c21d22.jpg",
     "index.html": "/web_ento/index.html",
-    "main.1a0282b0.css.map": "/web_ento/static/css/main.1a0282b0.css.map",
+    "main.12009c12.css.map": "/web_ento/static/css/main.12009c12.css.map",
     "main.96de395d.js.map": "/web_ento/static/js/main.96de395d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a0282b0.css",
+    "static/css/main.12009c12.css",
     "static/js/main.96de395d.js"
   ]
 }
