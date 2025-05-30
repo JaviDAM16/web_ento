@@ -22,4 +22,6 @@ export default {
   "all-rights-reserved": "All rights reserved.",
   "buy-now": "Buy Now",
   cart: "Cart",
+  "your-cart": "Your cart",
+  "cart-empty": "Your cart is empty",
 };

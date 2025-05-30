@@ -4,8 +4,11 @@ import { useCarrito } from "./CarritoContext";
 import "./Carrito.css";
 import prendas from "../data/prendas.json";
 import imagenes from "../images";
+import { useLanguage } from "../utils/contexts/Language"
+
 
 export const Carrito = () => {
+  const { t } = useLanguage();
   const { productos, eliminarProducto, actualizarCantidad } = useCarrito();
 
   const total = productos.reduce(
@@ -21,10 +24,10 @@ export const Carrito = () => {
 
   return (
     <div className="carrito-container">
-      <h1>Tu Carrito</h1>
+      <h1>{t("your-cart")}</h1>
 
       {productos.length === 0 ? (
-        <p>Tu carrito está vacío</p>
+        <p>{t("cart-empty")}</p>
       ) : (
         <div className="productos-lista">
           {productos.map((producto) => (
