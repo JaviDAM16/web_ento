@@ -159,6 +159,16 @@
 
 /* MEDIA QUERIES para móvil */
 @media (max-width: 768px) {
+   * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* 👈 esto es clave */
+  }
+  
   .logo-img {
     width: 90vw;
   }
