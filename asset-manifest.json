@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Website_project/static/css/main.2752c46e.css",
-    "main.js": "/Website_project/static/js/main.520b64a8.js",
-    "static/media/parallax2.jpg": "/Website_project/static/media/parallax2.54bd304104e05944d96f.jpg",
-    "static/media/parallax1.jpg": "/Website_project/static/media/parallax1.5353924627d59cc88578.jpg",
-    "static/media/camisa-lino.jpg": "/Website_project/static/media/camisa-lino.5de6cb3bcb0f513e4f8e.jpg",
-    "static/media/vestido-floral.jpg": "/Website_project/static/media/vestido-floral.53e988a192116bc22301.jpg",
-    "static/media/falda-plisada.jpg": "/Website_project/static/media/falda-plisada.8e8107c8053774c51c3e.jpg",
-    "static/media/short-deportivo.jpg": "/Website_project/static/media/short-deportivo.7fd0c76981086125bf70.jpg",
-    "static/media/blazer-formal.jpg": "/Website_project/static/media/blazer-formal.4ba7c8534fd7de909658.jpg",
-    "static/media/sudadera.jpg": "/Website_project/static/media/sudadera.8578239005befc6a7a7e.jpg",
-    "static/media/chaqueta-vaquera.jpg": "/Website_project/static/media/chaqueta-vaquera.1bb7ccc027ac09304d86.jpg",
-    "static/media/pantalon-chino.jpg": "/Website_project/static/media/pantalon-chino.9684c231db1e4248a34b.jpg",
-    "static/media/tienda.jpg": "/Website_project/static/media/tienda.bd167a19cef4fc887a54.jpg",
-    "static/media/camiseta-blanca.jpg": "/Website_project/static/media/camiseta-blanca.c073fdf5eb79d138a348.jpg",
-    "static/media/javi.jpg": "/Website_project/static/media/javi.afa6bd6fdf573ab2fa6b.jpg",
-    "static/media/logozoro.jpg": "/Website_project/static/media/logozoro.c626e76b696ac469ca55.jpg",
-    "static/media/jeans-skinny.jpg": "/Website_project/static/media/jeans-skinny.bb749866c7e4b1c21d22.jpg",
-    "index.html": "/Website_project/index.html",
-    "main.2752c46e.css.map": "/Website_project/static/css/main.2752c46e.css.map",
-    "main.520b64a8.js.map": "/Website_project/static/js/main.520b64a8.js.map"
+    "main.css": "/web_ento/static/css/main.12009c12.css",
+    "main.js": "/web_ento/static/js/main.96de395d.js",
+    "static/media/parallax2.jpg": "/web_ento/static/media/parallax2.54bd304104e05944d96f.jpg",
+    "static/media/parallax1.jpg": "/web_ento/static/media/parallax1.5353924627d59cc88578.jpg",
+    "static/media/camisa-lino.jpg": "/web_ento/static/media/camisa-lino.5de6cb3bcb0f513e4f8e.jpg",
+    "static/media/vestido-floral.jpg": "/web_ento/static/media/vestido-floral.53e988a192116bc22301.jpg",
+    "static/media/falda-plisada.jpg": "/web_ento/static/media/falda-plisada.8e8107c8053774c51c3e.jpg",
+    "static/media/short-deportivo.jpg": "/web_ento/static/media/short-deportivo.7fd0c76981086125bf70.jpg",
+    "static/media/blazer-formal.jpg": "/web_ento/static/media/blazer-formal.4ba7c8534fd7de909658.jpg",
+    "static/media/sudadera.jpg": "/web_ento/static/media/sudadera.8578239005befc6a7a7e.jpg",
+    "static/media/chaqueta-vaquera.jpg": "/web_ento/static/media/chaqueta-vaquera.1bb7ccc027ac09304d86.jpg",
+    "static/media/pantalon-chino.jpg": "/web_ento/static/media/pantalon-chino.9684c231db1e4248a34b.jpg",
+    "static/media/tienda.jpg": "/web_ento/static/media/tienda.bd167a19cef4fc887a54.jpg",
+    "static/media/camiseta-blanca.jpg": "/web_ento/static/media/camiseta-blanca.c073fdf5eb79d138a348.jpg",
+    "static/media/javi.jpg": "/web_ento/static/media/javi.afa6bd6fdf573ab2fa6b.jpg",
+    "static/media/logozoro.jpg": "/web_ento/static/media/logozoro.c626e76b696ac469ca55.jpg",
+    "static/media/jeans-skinny.jpg": "/web_ento/static/media/jeans-skinny.bb749866c7e4b1c21d22.jpg",
+    "index.html": "/web_ento/index.html",
+    "main.12009c12.css.map": "/web_ento/static/css/main.12009c12.css.map",
+    "main.96de395d.js.map": "/web_ento/static/js/main.96de395d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2752c46e.css",
-    "static/js/main.520b64a8.js"
+    "static/css/main.12009c12.css",
+    "static/js/main.96de395d.js"
   ]
 }
