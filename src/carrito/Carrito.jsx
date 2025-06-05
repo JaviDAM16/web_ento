@@ -2,7 +2,6 @@
 import React from "react";
 import { useCarrito } from "./CarritoContext";
 import "./Carrito.css";
-import prendas from "../data/prendas.json";
 import imagenes from "../images";
 import { useLanguage } from "../utils/contexts/Language"
 
