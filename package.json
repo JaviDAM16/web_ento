@@ -1,8 +1,8 @@
 {
-  "name": "website_project",
+  "name": "web_ento",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JavierSanchezRamos.github.io/Website_project/",
+  "homepage": "https://javidam16.github.io/web_ento/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
